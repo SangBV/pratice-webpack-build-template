@@ -1,0 +1,30 @@
+{
+  "name": "pratice-webpack-build-template",
+  "version": "1.0.0",
+  "description": "Use to bundle web template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SangBV/pratice-webpack-build-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SangBV/pratice-webpack-build-template/issues"
+  },
+  "homepage": "https://github.com/SangBV/pratice-webpack-build-template#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.1.0"
+  }
+}
